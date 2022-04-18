@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+}
+
+section {
+    margin: 10px;
+}
+
+form {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #f00;
+}
+
+a {
+    font-style: italic;
+}
+
+p span#name {
+    font-style: italic;
+    color: #18cc14;
+}

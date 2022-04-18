@@ -1,0 +1,9 @@
+<section>
+    {{#if authenticated}}
+    <h1>Logged Out</h1>
+    <p>Need to get back in? Click <a href="/">here</a> log-in.</p>
+    {{else}}
+    <h1>Access Unauthorized!</h1>
+    <a href="/">Login</a>
+    {{/if}}
+</section>

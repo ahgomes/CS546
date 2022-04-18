@@ -1,0 +1,10 @@
+<section>
+    {{#if authenticated}}
+    <h1>Private</h1>
+    <p>Username: <span id="name">{{username}}</span></p>
+    <a href="/logout">Log-out</a>
+    {{else}}
+    <h1>Access Unauthorized!</h1>
+    <a href="/">Login</a>
+    {{/if}}
+</section>

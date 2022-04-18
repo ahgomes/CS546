@@ -1,0 +1,53 @@
+<article>
+    <h1>{{show.name}}</h1>
+    {{#if show.image}}
+    <img src="{{show.image.medium}}" alt="{{show.name}}"/>
+    {{else}}
+    <img src="../public/noimageavailable.png" alt="no image"/>
+    {{/if}}
+    <dl>
+        <dt>Language</dt>
+        <dd>
+            {{#if show.language}}
+            {{show.language}}
+            {{else}}
+            <span class="na">N/A</span>
+            {{/if}}
+        </dd>
+        <dt>Genres</dt>
+        <dd>
+            {{#if show.genres.length}}
+            <ul>
+                {{#each show.genres}} <li>{{this}}</li> {{/each}}
+            </ul>
+            {{else}}
+            <span class="na">N/A</span>
+            {{/if}}
+        </dd>
+        <dt>Average Rating</dt>
+        <dd>
+            {{#if show.rating.average}}
+            {{show.rating.average}}
+            {{else}}
+            <span class="na">N/A</span>
+            {{/if}}
+        </dd>
+        <dt>Network</dt>
+        <dd>
+            {{#if show.network}}
+            {{show.network.name}}
+            {{else}}
+            <span class="na">N/A</span>
+            {{/if}}
+        </dd>
+        <dt>Summary</dt>
+        <dd>
+            {{#if show.summary}}
+            {{{show.summary}}}
+            {{else}}
+            <span class="na">N/A</span>
+            {{/if}}
+        </dd>
+    </dl>
+    <a href="/">Show Finder</a>
+</article>

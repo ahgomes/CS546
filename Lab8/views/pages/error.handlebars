@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+{{#if not_found}}
+<h2>ID: <span class="invalid">{{id}}</span></h2>
+<article>
+    <p class="error-not-found">
+        There is no show for the given ID. <br/>
+        Try a different ID or try searching on the <a href="/">Show Finder</a>.
+    </p>
+</article>
+{{else}}
+<article>
+    <p class="other-error">
+        {{error}}
+    </p>
+    <a href="/">Show Finder</a>
+</article>
+{{/if}}

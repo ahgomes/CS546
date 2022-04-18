@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "Lab 9 module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Adrian Gomes 10445395",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

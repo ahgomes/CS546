@@ -1,0 +1,101 @@
+body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+article, section {
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid #000;
+}
+
+h1 {
+    margin: 25px;
+    font-size: 64px;
+}
+
+h2 {
+    margin: 25px;
+    font-style: italic;
+}
+
+p, a {
+    font-family: monospace;
+}
+
+form {
+    margin: 25px 0;
+}
+
+label {
+    font-style: italic;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 50%;
+    margin: 0 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+ul.show-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.show-list li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+}
+
+.error {
+    color: #f00;
+}
+
+img {
+    margin: 0 25px;
+}
+
+dl {
+    margin: 10px 25px;
+}
+
+dt {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+dd {
+    margin: 0 0 10px 0;
+    font-family: monospace;
+}
+
+dd p {
+    margin: 0;
+}
+
+.na {
+    color: #888;
+    font-style: italic;
+}
+
+span.invalid {
+    background: #ff0;
+    padding: 0 10px;
+}
+
+p.error-not-found, p.other-error {
+    text-transform: uppercase;
+    color: #f00;
+    font-size: 18px;
+}
+
+p.error-not-found a {
+    font-style: italic;
+}

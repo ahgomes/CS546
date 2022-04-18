@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-8",
+  "version": "1.0.0",
+  "description": "Lab 8 module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Adrian Gomes 10445395",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3"
+  }
+}

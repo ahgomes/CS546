@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header, footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+header {
+    top: 0;
+    height: 100px;
+    line-height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+main {
+    position: absolute;
+    top: 100px;
+    padding: 25px;
+    width: 100%;
+}
+
+#checker, .attempts-box {
+    display: inline-block;
+    position: relative;
+}
+
+#checker {
+    float: left;
+    font-family: monospace;
+    margin-left: 10%;
+    padding: 50px;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+label {
+    display: block;
+}
+
+#num, #submit {
+    padding: 5px 10px;
+    height: 50px;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#num {
+    width: 100px;
+    -moz-appearance: textfield;
+}
+
+#num::-webkit-outer-spin-button,
+#num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#submit {
+    width: 50px;
+}
+
+#checker .error {
+    display: block;
+    font-style: italic;
+    color: #777;
+    visibility: hidden;
+}
+
+.attempts-box {
+    float: right;
+    height: calc(100vh - 225px);
+    width: 50%;
+    padding-bottom: 25px;
+}
+
+#attempts {
+    font-family: monospace;
+    overflow: scroll;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.is-prime {
+    color: #00E676;
+}
+
+.not-prime {
+    color: #FF3D00;
+}
+
+footer {
+    bottom: 0;
+    border-top: 1px solid #000;
+}
+
+footer span {
+    padding: 5px;
+    margin: 20px;
+}
